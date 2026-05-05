@@ -1,0 +1,35 @@
+= Helm 4 Course Syllabus
+
+== Course Overview
+This course provides an in-depth understanding of Helm, the package manager for Kubernetes. It covers the fundamentals of Helm, including chart creation, management, and deployment. Students will learn how to use Helm to simplify application deployment and management on Kubernetes clusters.
+
+== Course Objectives
+By the end of this course, students will be able to:
+- Understand the core concepts of Helm and its architecture.
+- Create and manage Helm charts for Kubernetes applications.
+- Deploy applications using Helm and manage releases effectively.
+- Use Helm to automate application deployment and updates.
+
+== Course Outline
+1. Introduction to Helm
+    - What is Helm?
+    - Benefits of using Helm
+    - Helm architecture and components
+2. Helm Installation and Setup
+    - Installing Helm on different platforms
+    - Configuring Helm with Kubernetes clusters
+3. Helm Charts
+    - Understanding Helm charts
+    - Creating a Helm chart from scratch
+    - Chart structure and best practices
+4. Managing Helm Releases
+    - Deploying applications with Helm
+    - Upgrading and rolling back releases
+    - Managing release history
+5. Advanced Helm Features
+    - Using Helm templates and values
+    - Helm hooks and lifecycle events
+    - Helm plugins and extensions  
+6. Helm in CI/CD Pipelines
+    - Integrating Helm with CI/CD tools
+    - Automating application deployment with Helm
