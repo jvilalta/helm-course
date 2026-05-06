@@ -27,110 +27,110 @@ By the end of this course, students will be able to:
 * Package and distribute charts
 * Apply Helm best practices in real-world environments
 
-== Module 0 — Setup & Environment
+== Module 1 — Setup & Environment
 
-=== Lesson 0.1 — Course Overview
+=== Lesson 1.1 — Course Overview
 
-=== Lesson 0.2 — Environment Options
+=== Lesson 1.2 — Environment Options
 
-=== Lesson 0.3 — Create a Kubernetes Cluster with kind
+=== Lesson 1.3 — Create a Kubernetes Cluster with kind
 
-=== Lesson 0.4 — Install kubectl
+=== Lesson 1.4 — Install kubectl
 
-=== Lesson 0.5 — Install Helm
+=== Lesson 1.5 — Install Helm
 
-== Module 1 — Helm Fundamentals
+== Module 2 — Helm Fundamentals
 
-=== Lesson 1.1 — What is Helm (Core Concepts)
+=== Lesson 2.1 — What is Helm (Core Concepts)
 
-=== Lesson 1.2 — Your First Helm Install
+=== Lesson 2.2 — Your First Helm Install
 
-=== Lesson 1.3 — Inspecting a Release
+=== Lesson 2.3 — Inspecting a Release
 
-=== Lesson 1.4 — Uninstalling a Release
+=== Lesson 2.4 — Uninstalling a Release
 
-=== Lesson 1.5 — Helm Repositories
+=== Lesson 2.5 — Helm Repositories
 
-== Module 2 — Working with Values
+== Module 3 — Working with Values
 
-=== Lesson 2.1 — What are Values?
+=== Lesson 3.1 — What are Values?
 
-=== Lesson 2.2 — Overriding Values via CLI
+=== Lesson 3.2 — Overriding Values via CLI
 
-=== Lesson 2.3 — Using values.yaml Files
+=== Lesson 3.3 — Using values.yaml Files
 
-=== Lesson 2.4 — Real Example: Customize NGINX
+=== Lesson 3.4 — Real Example: Customize NGINX
 
-== Module 3 — Creating Your Own Chart
+== Module 4 — Creating Your Own Chart
 
-=== Lesson 3.1 — Generate a Chart
+=== Lesson 4.1 — Generate a Chart
 
-=== Lesson 3.2 — Chart Structure Explained
+=== Lesson 4.2 — Chart Structure Explained
 
-=== Lesson 3.3 — Deploy Your Chart
+=== Lesson 4.3 — Deploy Your Chart
 
-=== Lesson 3.4 — Editing values.yaml
+=== Lesson 4.4 — Editing values.yaml
 
-== Module 4 — Helm Templating
+== Module 5 — Helm Templating
 
-=== Lesson 4.1 — Introduction to Helm Templating
+=== Lesson 5.1 — Introduction to Helm Templating
 
-=== Lesson 4.2 — Using Values in Templates
+=== Lesson 5.2 — Using Values in Templates
 
-=== Lesson 4.3 — Conditionals
+=== Lesson 5.3 — Conditionals
 
-=== Lesson 4.4 — Loops
+=== Lesson 5.4 — Loops
 
-=== Lesson 4.5 — Template Functions
+=== Lesson 5.5 — Template Functions
 
-=== Lesson 4.6 — Debugging Templates
+=== Lesson 5.6 — Debugging Templates
 
-== Module 5 — Upgrades & Lifecycle Management
+== Module 6 — Upgrades & Lifecycle Management
 
-=== Lesson 5.1 — Upgrading a Release
+=== Lesson 6.1 — Upgrading a Release
 
-=== Lesson 5.2 — Rollbacks
+=== Lesson 6.2 — Rollbacks
 
-=== Lesson 5.3 — Versioning Charts
+=== Lesson 6.3 — Versioning Charts
 
-== Module 6 — Chart Dependencies
+== Module 7 — Chart Dependencies
 
-=== Lesson 6.1 — Understanding Dependencies
+=== Lesson 7.1 — Understanding Dependencies
 
-=== Lesson 6.2 — Adding Dependencies
+=== Lesson 7.2 — Adding Dependencies
 
-=== Lesson 6.3 — Updating Dependencies
+=== Lesson 7.3 — Updating Dependencies
 
-== Module 7 — Packaging & Distribution
+== Module 8 — Packaging & Distribution
 
-=== Lesson 7.1 — Packaging a Chart
+=== Lesson 8.1 — Packaging a Chart
 
-=== Lesson 7.2 — Creating a Chart Repository
+=== Lesson 8.2 — Creating a Chart Repository
 
-=== Lesson 7.3 — Publishing to OCI Registries
+=== Lesson 8.3 — Publishing to OCI Registries
 
-== Module 8 — Real-World Helm Practices
+== Module 9 — Real-World Helm Practices
 
-=== Lesson 8.1 — Environment-Specific Values
+=== Lesson 9.1 — Environment-Specific Values
 
-=== Lesson 8.2 — Managing Secrets
+=== Lesson 9.2 — Managing Secrets
 
-=== Lesson 8.3 — Structuring Large Charts
+=== Lesson 9.3 — Structuring Large Charts
 
-=== Lesson 8.4 — Common Anti-Patterns
+=== Lesson 9.4 — Common Anti-Patterns
 
-== Module 9 — Capstone Project
+== Module 10 — Capstone Project
 
-=== Lesson 9.1 — Project Overview
+=== Lesson 10.1 — Project Overview
 
-=== Lesson 9.2 — Building the Chart
+=== Lesson 10.2 — Building the Chart
 
-=== Lesson 9.3 — Environment Customization
+=== Lesson 10.3 — Environment Customization
 
-=== Lesson 9.4 — Deploying and Validating
+=== Lesson 10.4 — Deploying and Validating
 
-== Module 10 — Course Wrap-Up
+== Module 11 — Course Wrap-Up
 
-=== Lesson 10.1 — Review and Key Takeaways
+=== Lesson 11.1 — Review and Key Takeaways
 
-=== Lesson 10.2 — Next Steps with Helm and GitOps
+=== Lesson 11.2 — Next Steps with Helm and GitOps
