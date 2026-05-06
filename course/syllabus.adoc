@@ -1,35 +1,136 @@
-= Helm 4 Course Syllabus
+= Helm 4 Fundamentals and Practical Usage
+:toc:
+:toclevels: 2
 
 == Course Overview
-This course provides an in-depth understanding of Helm, the package manager for Kubernetes. It covers the fundamentals of Helm, including chart creation, management, and deployment. Students will learn how to use Helm to simplify application deployment and management on Kubernetes clusters.
 
-== Course Objectives
+This course teaches the fundamentals and practical usage of Helm for Kubernetes. Students will learn how to install, configure, customize, package, and manage Kubernetes applications using Helm charts.
+
+The course is designed with a hands-on approach and includes practical exercises and real-world deployment patterns.
+
+== Prerequisites
+
+* Basic command-line familiarity
+* Basic understanding of containers and Kubernetes
+* Docker installed locally
+* A code editor such as VSCode
+
+== Learning Outcomes
+
 By the end of this course, students will be able to:
-- Understand the core concepts of Helm and its architecture.
-- Create and manage Helm charts for Kubernetes applications.
-- Deploy applications using Helm and manage releases effectively.
-- Use Helm to automate application deployment and updates.
 
-== Course Outline
-1. Introduction to Helm
-    - What is Helm?
-    - Benefits of using Helm
-    - Helm architecture and components
-2. Helm Installation and Setup
-    - Installing Helm on different platforms
-    - Configuring Helm with Kubernetes clusters
-3. Helm Charts
-    - Understanding Helm charts
-    - Creating a Helm chart from scratch
-    - Chart structure and best practices
-4. Managing Helm Releases
-    - Deploying applications with Helm
-    - Upgrading and rolling back releases
-    - Managing release history
-5. Advanced Helm Features
-    - Using Helm templates and values
-    - Helm hooks and lifecycle events
-    - Helm plugins and extensions  
-6. Helm in CI/CD Pipelines
-    - Integrating Helm with CI/CD tools
-    - Automating application deployment with Helm
+* Install and configure Helm
+* Deploy applications using Helm charts
+* Customize deployments with values files
+* Create and template custom charts
+* Manage Helm release lifecycles
+* Package and distribute charts
+* Apply Helm best practices in real-world environments
+
+== Module 0 — Setup & Environment
+
+=== Lesson 0.1 — Course Overview
+
+=== Lesson 0.2 — Environment Options
+
+=== Lesson 0.3 — Create a Kubernetes Cluster with kind
+
+=== Lesson 0.4 — Install kubectl
+
+=== Lesson 0.5 — Install Helm
+
+== Module 1 — Helm Fundamentals
+
+=== Lesson 1.1 — What is Helm (Core Concepts)
+
+=== Lesson 1.2 — Your First Helm Install
+
+=== Lesson 1.3 — Inspecting a Release
+
+=== Lesson 1.4 — Uninstalling a Release
+
+=== Lesson 1.5 — Helm Repositories
+
+== Module 2 — Working with Values
+
+=== Lesson 2.1 — What are Values?
+
+=== Lesson 2.2 — Overriding Values via CLI
+
+=== Lesson 2.3 — Using values.yaml Files
+
+=== Lesson 2.4 — Real Example: Customize NGINX
+
+== Module 3 — Creating Your Own Chart
+
+=== Lesson 3.1 — Generate a Chart
+
+=== Lesson 3.2 — Chart Structure Explained
+
+=== Lesson 3.3 — Deploy Your Chart
+
+=== Lesson 3.4 — Editing values.yaml
+
+== Module 4 — Helm Templating
+
+=== Lesson 4.1 — Introduction to Helm Templating
+
+=== Lesson 4.2 — Using Values in Templates
+
+=== Lesson 4.3 — Conditionals
+
+=== Lesson 4.4 — Loops
+
+=== Lesson 4.5 — Template Functions
+
+=== Lesson 4.6 — Debugging Templates
+
+== Module 5 — Upgrades & Lifecycle Management
+
+=== Lesson 5.1 — Upgrading a Release
+
+=== Lesson 5.2 — Rollbacks
+
+=== Lesson 5.3 — Versioning Charts
+
+== Module 6 — Chart Dependencies
+
+=== Lesson 6.1 — Understanding Dependencies
+
+=== Lesson 6.2 — Adding Dependencies
+
+=== Lesson 6.3 — Updating Dependencies
+
+== Module 7 — Packaging & Distribution
+
+=== Lesson 7.1 — Packaging a Chart
+
+=== Lesson 7.2 — Creating a Chart Repository
+
+=== Lesson 7.3 — Publishing to OCI Registries
+
+== Module 8 — Real-World Helm Practices
+
+=== Lesson 8.1 — Environment-Specific Values
+
+=== Lesson 8.2 — Managing Secrets
+
+=== Lesson 8.3 — Structuring Large Charts
+
+=== Lesson 8.4 — Common Anti-Patterns
+
+== Module 9 — Capstone Project
+
+=== Lesson 9.1 — Project Overview
+
+=== Lesson 9.2 — Building the Chart
+
+=== Lesson 9.3 — Environment Customization
+
+=== Lesson 9.4 — Deploying and Validating
+
+== Module 10 — Course Wrap-Up
+
+=== Lesson 10.1 — Review and Key Takeaways
+
+=== Lesson 10.2 — Next Steps with Helm and GitOps
